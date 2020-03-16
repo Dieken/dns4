@@ -1,0 +1,27 @@
+{
+  "name": "dns4",
+  "description": "Force IPv4 only DNS lookup",
+  "version": "0.1.0",
+  "author": "Yubao Liu <yubao.liu@gmail.com>",
+  "homepage": "https://github.com/Dieken/dns4#readme",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Dieken/dns4/issues"
+  },
+  "keywords": [
+    "IPv4",
+    "IPv6",
+    "DNS"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dieken/dns4.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
